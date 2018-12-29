@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Open Sans";
+    width: 100%;
+  }
+  
+  .navbar {
+    width: 100%;
+    min-height: 15vh;
+    background-color: #8cd4d454;
+    padding: 10px;
+    margin-bottom: 3px;
+  }
+  
+  .logo {
+    height: 55px;
+    max-height: 80px;
+    padding: 0 10%;
+  }
+  
+  .burger {
+    color: #61A734;
+  }
+  
+  .content-organic {
+    width: 100%;
+    background-color: #8cd4d454;
+  }
+  
+  .img {
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("./images/banner.jpeg");
+  }
+  
+  .button-organic {
+    width: 80px;
+    margin: 25px;
+    padding: 12px 20px;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #61A734;
+  }
+  
+  .title-banner {
+    position: absolute;
+    left: 190px;
+    font-size: 30px;
+    color: #61A734;
+  }
+  
+  .subtitle-banner {
+    font-family: "Great Vibes";
+    color: #FF5A00;
+    font-size: 150px;
+    position: relative;
+    padding: 0 25px;
+  }
+  
+  .description {
+    margin-top: 15px;
+    padding: 0 25px;
+    font-style: italic;
+  }
+  
+  .content-works {
+    background-color: #61A734;
+    padding: 60px 10px;
+  }
+  
+  .title_works {
+    font-size: 2.5em;
+    color: white;
+  }
+  
+  .title_text {
+    color: white;
+    text-align: center;
+  }
+  
+  .imge {
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .imge:nth-child(1) {
+    background-image: url(./images/borrego.jpeg);
+  }
+  
+  .imge:nth-child(3) {
+    background-image: url(./images/fresas.jpeg);
+  }
+  
+  .imge:nth-child(5) {
+    background-image: url(./images/verduras.jpeg);
+  }
+  
+  .text-description,
+  .imge {
+    width: 300px;
+    height: 290px;
+    margin: 15px;
+  }
+  
+  .text-description {
+    background-color: #fff;
+  }
+  
+  .item--text img {
+    margin-top: 20px;
+  }
+  
+  .title-section {
+    font-size: 1.3em;
+  }
+  
+  .form--info {
+    padding: 30px;
+  }
+  
+  .form-title {
+    font-size: 20px;
+    color: #61A734;
+    padding: 0 39px;
+    font-weight:bold;
+  }
+  
+  .form-subtitle {
+    font-family: "Great Vibes";
+    color: #FF5A00;
+    font-size: 3.8em;
+    padding: 0 25px;
+  }
+  
+  .button {
+    width: 80px;
+    margin: 25px;
+    padding: 12px 20px;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #FF5A00;
+  }
+  
+  .content-farm {
+    width: 100%;
+    background-color: lightgray;
+  }
+  
+  .form_img {
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("./images/banner-2.jpeg");
+  }
+  
+  .healt-subtitle {
+    font-family: "Great Vibes";
+    color: #FF5A00;
+    font-size: 3em;
+    padding: 0 25px;
+  }
+  
+  .content--healt {
+    width: 100%;
+  }
+  
+  .healt_img {
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("./images/banner-3.jpeg");
+  }
+  
+  .title_about {
+    font-size: 50px;
+    color: white;
+  }
+  
+  .description_about {
+    color: white;
+  }
+  
+  .content--about {
+    margin: 0;
+    background-image: -webkit-gradient(linear, color-stop(50%, #61A734), color-stop(50%, lightgray));
+    background-image: -webkit-linear-gradient(#61A734 50%, lightgray 50%);
+    background-image: -o-linear-gradient(#61A734 50%, lightgray 50%);
+    background-image: linear-gradient(to, #61A734 50%, lightgray 50%);
+  }
+  .about-title{
+    margin-top: 20px;
+    color:#61A734;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: initial;
+  }
+  .description-about{
+    text-align: initial;
+  }
+  
+  .img2 {
+    width: 250px;
+    height: 290px;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .img2:nth-child(5) {
+    background-image: url(./images/grid-4.jpeg);
+  }
+  
+  .img2:nth-child(6) {
+    background-image: url(./images/grid-5.jpeg);
+  }
+  
+  .img2:nth-child(7) {
+    background-image: url(./images/grid-6.jpeg);
+  }
+  
+  .img2:nth-child(8) {
+    background-image: url(./images/grid-7.jpeg);
+  }
+  
+  
+  .sections3 {
+    width: 100%;
+    background-color: rgb(211, 236, 245);
+    padding: 30px 100px;
+  }
+  
+  .sections-title {
+    padding: 15px 0;
+    font-size: 1.25rem;
+    font-family: "Open Sans";
+  }
+  
+  .sections-info {
+    margin: 20px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    height: 50vh;
+  }
+  
+  .sections-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+  }
+  
+  /* .content--about-text {
+    margin: 8px;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .content--about-all {
+    padding: 10px 5%;
+  }
+  
+  .content_happy {
+    width: 100%;
+  } */
+  
+  .content_happy_img {
+    height: 550px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("./images/banner-4.jpeg");
+  }
+  
+  .content_maps {
+    width: 100%;
+  }
+  
+  .content_maps_img {
+    height: 300px;
+    width: 360px;
+    min-height: 450px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("./images/banner-5.jpeg");
+  }
+  
+  .sections {
+    width: 100%;
+  }
+  .footer-container {
+    font-size: .8rem;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 25px 20px;
+  }
+  
+  .footer-container p {
+    margin: 35px 0;
+  }
+  
+  .footer-container a {
+    margin: 0 5px;
+    color: #e2c178;
+  }
+  
+  .item--info {
+    padding: 30px;
+  }
+  
+  .item--card {
+    padding: 20px 0;
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+  
+    .item--card,
+    .img2 {
+      margin: 0 25px;
+    }
+  
+    .item--card {
+      width: 300px;
+      height: 200px;
+    }
+  }
