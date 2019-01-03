@@ -30,9 +30,14 @@
     width: 100%;
     background-color: #8cd4d454;
   }
-  
+  .content-info_text{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
   .img {
-    height: 400px;
+    height: 550px;
     background-position: center center;
     background-size: cover;
     background-image: url("./images/banner.jpeg");
@@ -41,7 +46,7 @@
   .button-organic {
     width: 80px;
     margin: 25px;
-    padding: 12px 20px;
+    padding: 20px 60px;
     font-size: 12px;
     color: #ffffff;
     border-radius: 20px;
@@ -50,17 +55,21 @@
   
   .title-banner {
     position: absolute;
-    left: 190px;
-    font-size: 30px;
+    margin-left: 150px;
+    font-size:  1.5rem;
     color: #61A734;
+    font-weight: bold;
   }
   
   .subtitle-banner {
     font-family: "Great Vibes";
     color: #FF5A00;
-    font-size: 150px;
+    font-size: 6rem;
     position: relative;
     padding: 0 25px;
+    margin-top: 35px;
+    margin-left: 9px;
+    margin-right: 9px;
   }
   
   .description {
@@ -69,9 +78,15 @@
     font-style: italic;
   }
   
+/* segunda seccion  */
+
   .content-works {
     background-color: #61A734;
     padding: 60px 10px;
+  }
+  .title{
+    margin: auto;
+    width: 60%;
   }
   
   .title_works {
@@ -150,7 +165,7 @@
   
   .content-farm {
     width: 100%;
-    background-color: lightgray;
+    background-color: rgb(247, 244, 244);
   }
   
   .form_img {
@@ -163,7 +178,7 @@
   .healt-subtitle {
     font-family: "Great Vibes";
     color: #FF5A00;
-    font-size: 3em;
+    font-size: 3.8em;
     padding: 0 25px;
   }
   
@@ -245,7 +260,6 @@
     margin: 20px;
     padding: 30px;
     background-color: #FFFFFF;
-    height: 50vh;
   }
   
   .sections-info img {
@@ -286,6 +300,7 @@
     background-position: center center;
     background-size: cover;
     background-image: url("./images/banner-5.jpeg");
+    
   }
   
   .sections {
@@ -309,6 +324,7 @@
   
   .item--info {
     padding: 30px;
+    
   }
   
   .item--card {
@@ -330,3 +346,5 @@
       height: 200px;
     }
   }
+
+  /* around-xs */
